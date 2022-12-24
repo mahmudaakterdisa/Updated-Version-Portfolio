@@ -1,0 +1,9 @@
+.container-particles {
+    height: auto;
+    /* width: 80%; */
+}
+
+.container-particles div {
+    position: relative;
+
+}

@@ -1,0 +1,11 @@
+.portfolio-container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.project-container {
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}

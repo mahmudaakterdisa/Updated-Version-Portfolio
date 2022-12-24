@@ -1,0 +1,63 @@
+.skill-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    /* 
+    background-color: aqua; */
+
+}
+
+.bio-container {
+    width: 20%;
+    height: 100%;
+    padding: 0;
+    /* background-color: cornflowerblue; */
+    text-align: center;
+}
+
+
+
+.bio-container img {
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-container .bio-text {
+    width: 100%;
+    border: 1px solid black
+        /* background-color: blue; */
+
+}
+
+.all-skill {
+    width: 20%;
+
+}
+
+.skill-text {
+    rotate: -90deg;
+    /* color: #ffcccc; */
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 1px 1px 4px blue;
+    font-size: 10rem;
+    letter-spacing: 0.15em;
+}
+
+.my-skill {
+    width: 50%;
+    /* background-color: blue; */
+}
+
+
+.my-skill .h3-div {
+    /* background-color: #ef5777; */
+    height: 2.05rem;
+    width: 30%;
+}
+
+.bar {
+    height: 2.05rem;
+}

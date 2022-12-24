@@ -1,0 +1,32 @@
+.about-container {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: brown; */
+}
+
+
+
+
+
+.icon-container {
+    width: 100%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    color: black;
+
+}
+
+
+.icon1 {
+
+    border: 1px solid black;
+    padding-top: 2%;
+
+}
+
+.quality-description1 {
+    font-weight: bold;
+    color: rgb(56, 54, 54);
+}
