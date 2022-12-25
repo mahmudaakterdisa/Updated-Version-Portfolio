@@ -1,4 +1,19 @@
-/* .Header-container {
+.Header-container {
     width: 100%;
-    height: 100%;
-} */
+
+}
+
+.nav-image img {
+    height: 90%;
+}
+
+.icon:hover {
+    background-color: unset;
+}
+
+.navList li:hover {
+    background-color: black;
+    color: rgb(251 207 232 / var(--tw-bg-opacity));
+    border-radius: 0px;
+    box-shadow: 0 10px 15px -3px rgb(165 180 252);
+}

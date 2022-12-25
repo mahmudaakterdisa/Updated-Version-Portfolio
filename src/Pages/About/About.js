@@ -9,11 +9,11 @@ import css from './About.css';
 
 const About = () => {
     return (
-        <div className='about-container'>
+        <div className='about-container sm:mt-40 mt-40'>
 
-            <div className='about-text text-center font-semibold mb-16'>
+            <div className='text-center font-semibold mb-16'>
                 <h1 className='text-5xl'> ABOUT</h1>
-                <hr className='mx-auto w-36 mt-3 border-black' />
+                <hr className='mx-auto w-24 mt-3 border-black' />
             </div>
             <div className='icon-container grid grid-cols-4 gap-20'>
 

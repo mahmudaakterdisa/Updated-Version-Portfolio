@@ -40,15 +40,15 @@ const Portfolio = () => {
 
 
     return (
-        <div className='my-40 portfolio-container'>
+        <div className='sm:mt-40 mt-40 portfolio-container'>
 
-            <div className='about-text text-center font-semibold mb-16'>
+            <div className='text-center font-semibold mb-16'>
                 <h1 className='text-5xl'>PROJECTS</h1>
                 <hr className='mx-auto w-36 mt-3 border-black' />
             </div>
 
             <div className='project-categories'>
-                <div className='flex flex-row justify-around text-xl mb-16'>
+                <div className='flex flex-row justify-around text-xl mb-5'>
 
                     <h2 className={all ? 'text-xl w-36 bg-black text-pink-200 hover:shadow-lg hover:shadow-indigo-300 w-40 h-12 flex flex-col justify-center items-center text-xl ' : ' '} onClick={handleAll} >
                         ALL
@@ -63,11 +63,11 @@ const Portfolio = () => {
                     <div>
                         {
                             javaScript ?
-                                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2'>
-                                    <div>
+                                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10'>
+                                    <div className='border border-black'>
                                         <img src="https://i.ibb.co/Tv9TTHX/News-Portal2.jpg" alt="" />
                                     </div>
-                                    <div>
+                                    <div className='border border-black'>
                                         <img src="https://i.ibb.co/L1WKWcx/football-java.jpg" alt="" />
                                     </div>
                                 </div>
@@ -80,11 +80,11 @@ const Portfolio = () => {
                     <div>
                         {
                             react ?
-                                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2'>
-                                    <div>
+                                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10'>
+                                    <div className='border border-black'>
                                         <img src="https://i.ibb.co/cxdSRRZ/Capture.jpg" alt="" />
                                     </div>
-                                    <div>
+                                    <div className='border border-black'>
                                         <img src="https://i.ibb.co/9VPY6MM/Capturep.jpg" alt="" />
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@ const Portfolio = () => {
                             redux ?
                                 <div className='flex flex-col justify-center items-center'>
                                     <div>
-                                        <h1 className='text-2xl'>Comming soon...</h1>
+                                        <h1 className='text-2xl font-semibold'>Comming soon...</h1>
                                     </div>
                                 </div>
                                 :
@@ -107,7 +107,7 @@ const Portfolio = () => {
                     <div>
                         {
                             all ?
-                                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2'>
+                                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10'>
                                     <div className='border border-black'>
                                         <img src="https://i.ibb.co/cxdSRRZ/Capture.jpg" alt="" />
                                     </div>
