@@ -1,7 +1,9 @@
 .Header-container {
     width: 100%;
-
+    z-index: 2;
 }
+
+
 
 .nav-image img {
     height: 90%;

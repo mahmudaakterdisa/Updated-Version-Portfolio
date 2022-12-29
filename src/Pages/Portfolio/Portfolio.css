@@ -1,9 +1,75 @@
 .portfolio-container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .project-container {
 
-    padding: 5%;
+    padding: 0 5%;
+}
+
+.linkContainer:hover .projectAnimation {
+    position: relative;
+    animation: fromLeft 0.5s linear forwards;
+}
+
+
+.linkContainer:hover .buttonAnimation {
+    position: relative;
+    animation: fromBottom 0.5s linear forwards;
+}
+
+
+
+@keyframes fromLeft {
+    0% {
+        visibility: visible;
+        top: -20%;
+    }
+
+
+    100% {
+        visibility: visible;
+        top: 0;
+    }
+}
+
+@keyframes fromBottom {
+    0% {
+        visibility: visible;
+        bottom: -20%;
+
+    }
+
+
+    100% {
+        visibility: visible;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .project-categories {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .portfolio-container {
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    .project-container {
+
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 0;
+    }
 }

@@ -27,12 +27,12 @@ const Navbar = () => {
 
                         fullScreen: {
                             enable: true,
-                            zIndex: 0
+                            zIndex: -4
                         },
                         particles: {
                             number: {
-                                value: 20,
-                                limit: 100,
+                                value: 10,
+                                limit: 50,
                                 density: {
                                     enable: true,
                                     value_area: 800

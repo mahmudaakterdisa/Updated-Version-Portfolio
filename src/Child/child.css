@@ -4,6 +4,10 @@
 }
 
 .container-particles div {
-    position: relative;
+    /* position: relative; */
 
 }
+
+/* .navbarIndex {
+    z-index: -20;
+} */

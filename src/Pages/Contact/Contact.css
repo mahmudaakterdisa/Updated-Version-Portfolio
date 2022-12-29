@@ -1,9 +1,39 @@
 .contact-container {
     width: 100%;
     min-height: 100vh;
-
 }
 
 .my-contact {
-    padding: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .contact-container {
+        width: 100%;
+        min-height: 50vh;
+
+    }
+
+    .contact-question {
+        text-align: center;
+    }
+
+    .contact-form {
+        padding: 0 10%;
+
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+
+    .contact-container {
+        width: 100%;
+        min-height: 50vh;
+    }
 }

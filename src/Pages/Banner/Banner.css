@@ -1,7 +1,9 @@
 .Banner-container {
     width: 100%;
     min-height: 50vh;
-    /* background-color: brown; */
+    z-index: 1;
+}
 
-
+.buttonIndex {
+    z-index: 1;
 }

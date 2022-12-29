@@ -1,33 +1,42 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import image4 from '../Images/me4.jpg';
 import { AiTwotoneStar } from "react-icons/ai";
-import css from './Skill.css'
-const Skill = () => {
-    return (
-        <div className='skill-container flex justify-between'>
+import css from './Skill.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-            <div className="bio-container">
+
+const Skill = () => {
+    // scroll animation
+    useEffect(() => {
+        AOS.init({
+            once: "true",
+            duration: "800"
+        });
+        AOS.refresh();
+    }, []);
+    return (
+        <div className='skill-container flex flex-col sm:flex-col md:flex-col lg:flex-row justify-between'>
+
+            <div data-aos="fade-right" data-aos-delay="50" className="bio-container flex flex-row sm:flex-row md:flex-row lg:flex-col">
 
 
                 <img src={image4} alt="Disha" />
 
 
-                <div className='mt-2  bio-text mx-auto bg-pink-200'>
+                <div className='mt-2  bio-text mx-auto  bg-pink-200'>
                     <p className='text-xl font-normal font-semibold'>Who Am I?</p>
                     <p className='p-2'>I'm  a Front-End Developer.I have created a variety of web pages. I am passionate about responsive websites and cutting-edge, pixel-perfect, gorgeous interfaces.</p>
                 </div>
-
-
-
             </div>
 
-            <div className='all-skill pt-56 flex items-center justify-end'>
+            <div data-aos="fade-down" data-aos-delay="1500" className='all-skill lg:pt-56  flex items-center justify-end'>
                 <div className='skill-text w-full text-pink-200'>
                     <h2>SKILL</h2>
                 </div>
             </div>
 
-            <div className='my-skill '>
+            <div data-aos="fade-left" data-aos-delay="500" className='my-skill '>
                 <div className='flex justify-center items-center'>
                     <div className=' px-2 text-center bg-pink-200 h3-div'>
                         <h3 className='text-black text-xl'>HTML5</h3>
